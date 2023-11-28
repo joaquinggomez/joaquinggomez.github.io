@@ -40,6 +40,10 @@ header .overflow {
   margin-top: 10px; 
   font-size: 100px;
 }
+.myname {
+  color: #ffffff;
+  text-align: start;
+}
 .SUBTITTLE {
   font-size: 30px;
   text-align: center;
