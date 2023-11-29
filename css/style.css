@@ -837,4 +837,36 @@ fieldset {
 .carousel-item {
   padding-left: 400px;
 }
-
+@media(min-width:400px) {
+    .tittle {
+      font-size: 50px;
+    }
+}
+/* .body-2 {
+  background-color: #03f0dc;
+} */
+@media(min-width:200px) {
+  .parrafo-1 {
+    padding-top: 3px;
+  }
+  .tittle {
+    font-size: 30px;
+  }
+  .SUBTITTLE {
+    font-size: 20px;
+  }
+  .parrafo-1 {
+    font-size: 15px;
+  }
+}
+@media(min-width:700px) {
+  .tittle {
+    font-size: 100px;
+  }
+  .SUBTITTLE {
+    font-size: 30px;
+  }
+  .parrafo-1 {
+    font-size: 17px;
+  }
+}
