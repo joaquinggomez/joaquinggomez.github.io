@@ -14,8 +14,8 @@ header {
   /* background: url(https://ourauckland.aucklandcouncil.govt.nz/media/mqibapxz/38-386755-1.jpg);*/
   background: url(https://i0.wp.com/lanoticia.com/wp-content/uploads/2023/10/basquetbol.jpg?fit=1200%2C800&ssl=1);
   text-align: center;
-  width: 100%;
-  height: 650px;
+  width: auto;
+  height: auto;
   background-size: cover;
 	background-attachment: fixed;
 	position: relative;
@@ -43,6 +43,7 @@ header .overflow {
 .myname {
   color: #ffffff;
   text-align: start;
+  font-size: 13px;
 }
 .SUBTITTLE {
   font-size: 30px;
@@ -351,14 +352,14 @@ img {
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-nav{
+nav {
   position: fixed;
   z-index: 99;
   width: 100%;
-  /* background: #f3f3f3;    
+  /*  background: #f3f3f3;    
   background: #000;
-  /* background: #242526; 
-}
+  /* background: #242526; */
+/* }
 nav .wrapper{
   position: relative;
   max-width: 1300px;
@@ -384,7 +385,7 @@ nav .wrapper{
   list-style: none;
 }
 .nav-links li a{
-  color: #ffffff;
+  color: #ffffff; */
   /* color: #f2f2f2; 
   text-decoration: none;
   font-size: 15px;
@@ -570,8 +571,8 @@ nav input{
 }
 .body-text div{
   font-size: 45px;
-  font-weight: 600; 
-}*/
+  font-weight: 600;  */
+/* }  */
 /* ------------FOOTER ----------*/
 .container {
   max-width: 1200px;
@@ -837,9 +838,18 @@ fieldset {
 .carousel-item {
   padding-left: 400px;
 }
-@media(min-width:400px) {
+@media(max-width:400px) {
     .tittle {
       font-size: 50px;
+    }
+    .SUBTITTLE {
+      font-size: 20px;
+    }
+    .parrafo-1 {
+      font-size: 20px;
+    }
+    .ver_mas {
+      display: none;
     }
 }
 /* .body-2 {
@@ -853,12 +863,19 @@ fieldset {
     font-size: 30px;
   }
   .SUBTITTLE {
-    font-size: 10px;
+    font-size: 15px;
   }
   .parrafo-1 {
-    font-size: 10px;
+    font-size: 15px;
+    .ver_mas {
+      display: none;
+    }
   }
-}
+  
+  }
+  .card-2 {
+    margin-bottom: 1px;
+  }
 @media(min-width:700px) {
   .tittle {
     font-size: 100px;
@@ -869,4 +886,7 @@ fieldset {
   .parrafo-1 {
     font-size: 17px;
   }
+}
+.sneaker-zapatillas {
+  color: #ffffff;
 }
