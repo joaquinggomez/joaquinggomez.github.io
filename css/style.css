@@ -853,10 +853,10 @@ fieldset {
     font-size: 30px;
   }
   .SUBTITTLE {
-    font-size: 20px;
+    font-size: 10px;
   }
   .parrafo-1 {
-    font-size: 15px;
+    font-size: 10px;
   }
 }
 @media(min-width:700px) {
